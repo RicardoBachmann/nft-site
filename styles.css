@@ -23,3 +23,11 @@ h3 {
   font-size: 20px;
   color: #d0aaff;
 }
+
+section {
+  padding: 45px 0px;
+}
+
+.main-image {
+  width: 100%;
+}
