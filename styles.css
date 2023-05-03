@@ -16,10 +16,6 @@ h1 {
   font-size: 36px;
 }
 
-h2 {
-  margin-top: 0;
-}
-
 h3 {
   font-size: 20px;
   color: #d0aaff;
@@ -32,23 +28,26 @@ a {
   text-decoration: underline dotted;
 }
 
-a:hover {
-  color: #d4b44c;
-}
-
+a:hover,
 a:active {
   color: #d4b44c;
 }
 
 /* layout */
 
-header {
-  background-color: #5f29a3;
-  padding: 45px 0px;
+header,
+section,
+footer {
+  padding: 45px 0;
 }
 
-section {
-  padding: 45px 0px;
+header,
+.section-two {
+  background-color: #5f29a3;
+}
+
+.section-two {
+  color: whitesmoke;
 }
 
 .container {
@@ -57,4 +56,19 @@ section {
 }
 .main-image {
   width: 100%;
+}
+
+.feature-image {
+  width: 300px;
+  border-radius: 4.6px;
+}
+
+.section-two-image-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  color: #5f29a3;
+  text-align: center;
 }
