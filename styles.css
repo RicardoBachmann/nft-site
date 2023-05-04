@@ -21,6 +21,10 @@ h3 {
   color: #d0aaff;
 }
 
+p {
+  line-height: 23px;
+}
+
 /* links */
 
 a {
@@ -71,4 +75,39 @@ header,
 footer {
   color: #5f29a3;
   text-align: center;
+}
+
+.btn-dark,
+.btn-mid,
+.btn-light {
+  padding: 10px 19px;
+  border-radius: 4.6px;
+  font-weight: 500;
+  text-decoration: none;
+  border: none;
+}
+
+.btn-dark {
+  background-color: #5f29a3;
+  color: whitesmoke;
+}
+
+.btn-mid {
+  background-color: #f0e0ff;
+  color: #5f29a3;
+}
+
+.btn-light {
+  background-color: whitesmoke;
+  color: #5f29a3;
+}
+
+.btn-dark:hover,
+.btn-mid:hover,
+.btn-light:hover,
+.btn-dark:active,
+.btn-mid:active,
+.btn-light:active {
+  background-color: #f3e885;
+  color: #2b283a;
 }
